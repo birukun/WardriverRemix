@@ -9,3 +9,13 @@ This code starts working as soon as power is applied and a MicroSD card is prese
 In order to retrieve files, you must copy them by hand from the MicroSD card. I recommend mounting the MicroSD card reader at 90 degrees to make card exchanges easy. 
 
 
+# Dependencies
+- Arduino IDE
+- Libraries (install using IDE)
+    - GParser Library
+    - MicroNMEA
+    - ESP32Time
+    - OneWire
+
+# Debugging
+Use Arduino IDE serial monitor at 115200 baud, both ESP32s will output basic serial logging. 
